@@ -26,20 +26,42 @@
   
   By looking at the top 5 lists below, we see that the densest location for members only reaches about 25k visits in the year. While three of the top 5 locations for casual riders exceed that, and one of which, Grand & Streeter (Navy Pier), has 3x as many yearly visits from casual riders than the number one spot does for members.
 	
-  
-  
-  Therefore, casual members tend to ride most commonly to tourist areas and leisure areas, Navy Pier, Millennium Park, Theater on the Lake, etc., while members ride most commonly to random spots in the city near office buildings.
+![Screenshot Members Top 5](https://user-images.githubusercontent.com/99245093/152964566-b736c3df-c5f7-4428-8b7e-e14751ff0da7.png)
+![Casual Riders Top 5](https://user-images.githubusercontent.com/99245093/152964582-6a95c79e-98fe-46a3-902b-83db02889563.png)
+
+  Casual members tend to ride most commonly to tourist areas and leisure areas, Navy Pier, Millennium Park, Theater on the Lake, etc., while members ride most commonly to random spots in the city near office buildings.
 	
   #### Time:
 	
-  Overall ridership increases significantly in the summer months and decreases in the winter. It is pretty cold in Chicago, so it makes sense. What is interesting though, is that casual riders ride less than members for the majority of the year, but in the summer peak, casual rider numbers exceed member’s numbers. 
-Per day rates/week rates aligns with this idea of commuting vs. leisure of the last visualization. As we see, casual riders are far more likely to rent bikes on the weekends, while members have increased ridership in the middle of the week and decreased ridership on the weekends.
-Lastly, we see from the hourly numbers that around 5:00pm is the peak for both casual riders and members, which make sense as 5:00pm is the most common time to travel, both for leisure and for work. However, there is a second peak around 8:00am for members, while casual riders are more likely to ride late at night.
+  Overall ridership increases significantly in the summer months and decreases in the winter. It is pretty cold in Chicago, so it makes sense. What is interesting though, is that casual riders ride less than members for the majority of the year, but in the summer peak, casual rider numbers exceed member’s numbers.
+  
+![Monthly Screenshot](https://user-images.githubusercontent.com/99245093/152966373-3fffb32f-248d-435e-b53f-040c0b57883f.png)
+  
+Per day rates/week rates aligns with this idea of commuting vs. leisure of the last section. As seen below, casual riders are far more likely to rent bikes on the weekends, while members have increased ridership in the middle of the week and decreased ridership on the weekends.
+
+![Day of Week Screenshot](https://user-images.githubusercontent.com/99245093/152967882-dad15b7e-fddd-47cf-8c39-09442e068657.png)
+
+Lastly, we see from the hourly numbers that around 5:00pm is the peak for both casual riders and members, which make sense as 5:00pm is the most common time to travel for leisure and for work. There is a second peak around 8:00am for members and casual riders are more likely to ride late at night.
+
+![Time of Day Screenshot](https://user-images.githubusercontent.com/99245093/152967947-87789db1-3bae-49bd-b851-3fdab4670ee7.png)
 
 #### Ride Lengths and Bike Types:
 	
-  From the above visualizations, we can see that there are more total rides from the members than the casual riders. However, the casual riders tend to ride the bicycles more than 2x as long. Something to note here however, is that docked bikes are ridden far longer than any other bike and it is only ridden by daily riders, no members. So, when taking the docked bikes out of the equation to compare apples to apples, we see that the ride length averages are about 7 points closer together.
-	If I could ask more questions about this dataset, I would ask why docked bikes are not used by members. For the sake of this scenario, I believe that docked bikes are not included in the membership, but theoretically it could just be that members have no need for them. 
+  From the below visualization, we can see that there are more total rides from the members than the casual riders. For both parties, individuals prefer classic bikes over both electric and docked.
+  
+  ![Membership Plan and Ride Type](https://user-images.githubusercontent.com/99245093/152970029-e5e2a360-f232-4141-b2e7-05b232094b2b.png)
+  
+  As we can see here, though members tend to ride more often, casual riders ride significantly longer on average. 
+  
+  ![Ride Length with Docked Bikes](https://user-images.githubusercontent.com/99245093/152970117-d56e59fe-c580-4378-96a3-0e146ab93b02.png)
+  
+  Something to note, however, is that docked bikes are ridden far longer than any other bike and it is only ridden by daily riders, no members.  I am not entirely sure whythis occurs. My guess is that docked bikes are not offered to members.
+  
+  ![Ride Length by Type Screenshot](https://user-images.githubusercontent.com/99245093/152970097-20b7324f-59e2-491c-9493-279b618384f3.png)
+  
+  So, when taking the docked bikes out of the equation to compare apples to apples, we see that the ride length averages are about 7 points closer together. Still a significant difference.
+  
+  ![Ride Length without Docked Bikes](https://user-images.githubusercontent.com/99245093/152970142-042f750a-bd74-4613-a360-ca12c05b7447.png)
 
 ## Recommendations:
 1.	Firstly, we know that casual riders are most likely to travel to coastal locations, mostly known for leisure activities. For example, Navy Pier, Millennium Park, Theater on the Lake, etc. Therefore, a targeted campaign to convert casual riders should do two things: 
