@@ -20,69 +20,58 @@ member_casual nvarchar(50)
 INSERT INTO [Google_Data_Analytics].[dbo].[year_trip_data]
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202101-divvy-tripdata]
 
 UNION ALL
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202102-divvy-tripdata]
 
 UNION ALL
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202103-divvy-tripdata]
 
 UNION ALL
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202104-divvy-tripdata]
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202105-divvy-tripdata]
 
 UNION ALL
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202106-divvy-tripdata]
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202107-divvy-tripdata]
 
 UNION ALL
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202108-divvy-tripdata]
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202109-divvy-tripdata]
 
 UNION ALL
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202110-divvy-tripdata]
 
 SELECT *
-
 FROM
 [Google_Data_Analytics].[dbo].[202111-divvy-tripdata]
 
