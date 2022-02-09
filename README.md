@@ -14,7 +14,7 @@
 
 ## Cleaning and Manipulation:
 	
-  This data came to me in 12 different CSV files, altogether it amounted to over five million data points. I did some basic cleaning and inspecting (TRIM, checking for inconsitencies, etc.) in each individual file using excel. I used the WEEKDAY function to extract the day of week from the date and used the IF function to switch numbers to actual words.
+  This data came to me in 12 different CSV files, altogether it amounted to over five million data points. I did some basic cleaning and inspecting (TRIM, checking for inconsistencies, etc.) in each individual file using excel. I used the WEEKDAY function to extract the day of week from the date and used the IF function to switch numbers to actual words.
 	
   From there I imported all 12 updated files to Microsoft SQL Server and created the following Query:
   
@@ -24,7 +24,7 @@
 	
   #### Location:
 	 
-  The locations in which riders travel are different. From the following map, we can see that casual riders tend to travel to the coastline the most, as that is where their data points are most dense. On the other hand, member's travel locations are less dense in those areas but are more spread out in other areas of the city.
+  The locations to which riders tend to travel are different between the two groups. From the following map, we can see that casual riders tend to travel to the coastline the most, as that is where their data points are most dense. On the other hand, member's travel locations are less dense in those areas but are more spread out in other areas of the city.
   
   ![Screenshot MAP](https://user-images.githubusercontent.com/99245093/152954776-9fe0023c-8275-491c-a910-77dec63d276a.png)
   
@@ -72,7 +72,7 @@ Lastly, we see from the hourly numbers that around 5:00pm is the peak for both c
      - It should include these locations in the material of the advertisement itself, to attract people who know the location and enjoy being there. 
      - Physical advertisements about the membership specifically should be shown at or near those locations, to target casual riders who tend to frequent those locations.
 
-2.	Secondly, I would propose Cyclistic offer a one-month free trial in April and May (the months with the largest increase in riders) to casual riders who have used Cyclistic’s services multiple times. 
+2.	Secondly, I would propose Cyclistic offer a one-month free trial in April and May (the months with the largest increase in riders) to casual riders who have used Cyclistic’s services multiple times before. 
     - If Cyclistic were to offer this trial to casual riders at the beginning of summer, they will be most likely to see the benefits of the service through the summer and decide to stay members through to the rest of the year. 
     - By offering it only to existing Cyclistic customers, you reduce the risk of one-time users, like tourists, using the free month of membership and never returning to Chicago.
 
